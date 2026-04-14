@@ -65,3 +65,99 @@
 # while i<len(s):
 #     print("hello ayush\n"*len(s))
 #     break
+
+
+
+
+# n=int(input("enter no:"))
+# i=2
+# while i <=n-1:
+#     if n%i==0:
+#         print("not prime")
+#         break
+#     i+=1
+# else:
+#     print("prime")
+    
+    
+#############################questions
+
+#wap to reccieve 3 set of values p n and r and calculate simple intrest of each set 
+
+#solution 
+
+# i=1
+# while i<=3:
+#     p=float(input("enter no:"))
+#     r=float(input("enter no:"))
+#     t=float(input("enter no:"))
+#     si=(p*r*t)/100
+#     print(si)
+#     i+=1
+
+
+# i=1 #itration input
+# while i<=3:   #as we need 3 sets loop will terminate after third value
+#         p=float(input("enter no:"))
+#         r=float(input("enter no:"))
+#         t=float(input("enter no:"))
+#         si=(p*r*t)/100
+#         print(si)
+#         i+=1  #this will increase thee itration numbe
+    
+    
+    
+    
+    
+    
+#wap to print 1 to 10 using infinite loop        
+# i=1       
+# while True:
+#     print(i)
+#     if i==10:
+#         break
+#     i+=1
+
+
+#wap to create all unique combinaation of 1 2 and 3
+
+# i=1
+# while i<=3:
+#     j=1
+#     while j<=3:
+#         k=1
+#         while k<=3:
+#             if i==j or j==k or k==i:
+#                 k+=1
+#                 continue
+#             else:
+#                 print(i,j,k)
+#             k+=1
+#         j+=1
+#     i+=1
+
+
+
+# i=1 
+# while i <=3:
+#     j=1
+#     while j <=3:
+#         k=1
+#         while k <=3:
+#             if (i!=j and j!=k and k!=i):
+#                 print(i,j,k)
+#             k+=1
+#         j+=1
+#     i+=1
+    
+    
+    
+binary=int(input("enter binary no:"))
+decimal=0
+base=1
+while binary>0:
+    digit=binary%10
+    decimal=decimal+digit*base
+    base=base*2
+    binary=binary//10
+print(decimal)

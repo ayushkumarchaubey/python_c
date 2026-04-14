@@ -31,5 +31,30 @@
     
     
     
-for char in "leopard":
-    print(char)
+# for char in "leopard":
+#     print(char)
+
+
+
+# for anime in ['one piece ','naruo','boruto']:
+#     print(anime)
+
+# for key in {'A101': 'RAJESH'}:
+    # print(key)
+    
+# lis=['dessert','fruit']
+# for i in enumerate(lis):
+#     print(i)
+
+
+
+n=int(input("enter a no:"))
+if n<1:
+    print("not prime ")
+else:
+    for i in range (2,int(n**0.5)+1):
+        if n%i==0:
+            print("not prime")
+            break
+    else:
+          print("prime")
