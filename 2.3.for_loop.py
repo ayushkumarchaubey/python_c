@@ -27,7 +27,7 @@
 
 # s=str(input("enter no :"))
 # for i in range (5,0,-1):
-#     print(s*i)\
+#     print(s*i)
     
     
     
@@ -48,13 +48,25 @@
 
 
 
-n=int(input("enter a no:"))
-if n<1:
-    print("not prime ")
-else:
-    for i in range (2,int(n**0.5)+1):
-        if n%i==0:
-            print("not prime")
-            break
-    else:
-          print("prime")
+# n=int(input("enter a no:"))
+# if n<1:
+#     print("not prime ")
+# else:
+#     for i in range (2,int(n**0.5)+1):
+#         if n%i==0:
+#             print("not prime")
+#             break
+#     else:
+#           print("prime")
+
+
+
+
+
+# n=int(input("enter no:"))
+# for i in range (1,n+1):
+#     print("*"*i)
+
+
+
+
