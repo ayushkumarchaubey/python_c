@@ -174,3 +174,48 @@
 #         j+=1
 #     i+=1
     
+
+
+# i=1 
+# while i <=3:
+#     p=int(input("enter no:"))
+#     r=int(input("enter no:"))
+#     t=int(input("enter no:"))
+#     si=(p*r*t)/100
+#     print(si)
+#     i+=1
+
+# i=1
+# while True:
+#     print(i)
+#     i+=1
+#     if(i>10):
+#         break
+
+
+# i=1
+# while i <=3:
+#     j=1
+#     while j<=3:
+#         k=1
+#         while k <=3:
+#             if(i!=j and j!=k and k!=i):
+#                 print(i,j,k)
+#             k+=1
+#         j+=1
+#     i+=1
+
+
+
+# binary=int(input("enter a no:"))
+# base=1
+# decimal=0
+# while binary>0:
+#     digit=binary%10
+#     decimal=decimal+digit*base
+#     base=base*2
+#     binary//=10
+# print(decimal)
+
+
+

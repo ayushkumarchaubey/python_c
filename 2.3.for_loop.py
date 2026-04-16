@@ -70,3 +70,40 @@
 
 
 
+# for i in range (65,91):
+#     print(chr(i),end=" ")
+# print()   #prints the new  line
+# for j in range(122,98,-1):
+    
+#     print(chr(j),end=" ")
+
+
+
+# for count in range (1,11):
+#     print(count)
+
+
+# for index in range (20,10,-3):
+#     print(index)
+
+
+# for odd in range(1,26):
+#     if(odd%2!=0):
+#         print(odd)
+
+# lst=['desert','dessert','to','too','lose','loose']
+# s='mumbai'
+# for i in range (len(lst)):
+#     if i>3:
+#         break
+#     else:
+#         print(i,lst[i],s[i])
+
+
+
+# import pyjokes
+# b=pyjokes.get_joke()
+# print(b)
+
+
+
