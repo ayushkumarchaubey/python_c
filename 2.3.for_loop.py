@@ -101,9 +101,35 @@
 
 
 
-# import pyjokes
-# b=pyjokes.get_joke()
-# print(b)
+
+# # wap to count number of alphabet and digit in a string nagpur-440010
+# s=input("enter char:")
+# digit=0
+# alpha=0
+# for ch in (s):
+#     if ch.isalpha():
+#         alpha+=1
+#     elif(ch.isdigit()):
+#         digit+=1
+# print(alpha)
+# print(digit)
 
 
 
+
+
+
+n=int(input("enter no:"))
+b=str(n)
+rev=0
+temp=n
+for i in range (1,len(b)+1):
+    digit=temp%10
+    rev=rev*10+digit
+    temp=temp//10
+print(rev)
+
+if(rev==n):
+    print("equal")
+else:
+    print("not equal")
